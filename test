@@ -1,2 +1,2 @@
 如何使用ffmpeg获取图片、音频、视频的相关信息：
-    ffmpeg -v error -show_entries stream=width,height -of default=noprint_wrappers=1:nokey=1 filename
+    ffprove -v error -show_entries stream=width,height -of default=noprint_wrappers=1:nokey=1 filename
